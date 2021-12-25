@@ -1,5 +1,6 @@
-curl -k https://my-nginx_frontend_1
-curl -k https://my-nginx_backend_1:443
+curl -kGi https://my-nginx_frontend_1
+curl -kGI https://my-nginx_backend_1:443
+curl -kGI https://test-admin.local.net
 
 docker logs -n 1 my-nginx_backend_1
 
